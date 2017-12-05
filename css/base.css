@@ -1,0 +1,27 @@
+body {
+    background: #202020;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+h1 {
+    font-size: 170%;
+}
+
+input[type="text"], input[type="password"], input[type="tel"], input[type="email"], input[type="submit"], input[type="button"],
+input[type="date"] {
+    width: 100%;
+}
+
+#login, #register {
+    color: white;
+    /*border: 2px solid black;
+    background: white;
+    box-shadow: 0 0 10px black;*/
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+}
